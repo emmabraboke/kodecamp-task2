@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Sacramento&display=swap');
+
+body{
+    background-color: black;
+}
+#whole{
+    width: 900px;
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background: url('img/banner.jpeg');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+#container{
+    display:flex;
+    padding-top: 300px;
+    padding-bottom: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    gap: 20px;
+}
+
+#bio{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    margin-left: 5px;
+}
+#about{
+    color:white;
+    font-size: 50px;
+    font-style: italic;
+    width: 100px;
+    font-weight: 900;
+    margin-right: 40px;
+    
+}
+
+/* #item1{
+    font-style: italic;
+    line-height: 20px;
+}
+ */
+
+
+#row1{
+display: flex;
+flex-direction: row;
+gap: 0px;
+}
+#row2{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    }
+
+#row1 img, #row2 img{
+ width: 300px;
+ height: 300px;
+}
+
+#updates input{
+
+    height: 15px;
+    width: 200px;
+    border-radius: 25px;
+    border: 0px;
+    padding: 5px;
+}
+
+#updates button{
+    height: 25px;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    padding-bottom:5px;
+    padding-top: 5px;
+  }
+
+  #items{
+      margin-bottom: 30px;
+      margin-left: 60px;
+      margin-right: 60px;
+  }
+  #item1{
+      color: white;
+      font-size: 25px;
+      font-style: italic;
+      line-height: 40px;
+      font-weight: 400;
+  }
+  #item2{
+      color: white;
+      width:400px;
+  }
+  #items strong{
+    font-size: 50px;
+}
+#updates{
+    margin-bottom: 30px;
+    text-align: center;
+}
+#soon{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    font-weight: 1000;
+}
+#web{
+   color: white;
+}
+#article{
+    display: flex;
+    gap: 7px;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#article img{
+    height: 290px;
+    width: 150px;
+    margin-right: 30px;
+}
+#article1{
+    overflow: hidden;
+}
+#article1 p{
+    line-height: 30px;
+}
+#name{
+font-family: 'Sacramento', cursive;
+color:rgb(228, 155, 167);
+font-size: 30px;
+font-weight: 500;
+}
+
+#collection{
+text-align: center;
+/* margin-left: auto;
+margin-right: auto; */
+}
+
+#collection p{
+    font-size: 30px;
+    font-style: italic;
+    color:white;
+    font-weight: 900;
+}
+
+#slide{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+   margin-bottom: 20px;
+}
+
+#slide img{
+    height:220px;
+    width:220px;
+}
+
+#product{
+display: flex;
+flex-direction: row;
+margin-top: 50px;
+gap: 6px;
+background-color: white;
+padding: 30px 50px 40px 40px;
+} 
+
+#product img{
+    height:200px;
+    width:200px;
+}
+
+#product div{
+    width: 250px;
+    margin-left: 12px;
+    
+}
+#product button{
+    height: 25px;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    padding-bottom:5px;
+    padding-top: 5px;
+  }
+
+  #subscribe{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      background-color: white;
+      padding-left: 40px;
+      text-align: center;
+      padding-right: 50px;
+    
+  }
+
+  #subscribe img{
+      width: 400px;
+      height: 400px;
+     
+  }
+
+  #subscribe form img{
+    width: 20px;
+    height: 20px;
+   
+}
+
+
+#subscribe form{
+    margin-top: 100px;
+    border-top: solid 6px pink;
+    margin-left: 45px;
+}
+#sub{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+}
+#subscribe form input{
+     width: 180px;
+}
+#subscribe button{
+    height: 25px;
+    width: 100px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    padding-bottom:5px;
+    padding-top: 5px;
+}
+/* #subscribe label{
+    margin-top: 30px;
+} */
