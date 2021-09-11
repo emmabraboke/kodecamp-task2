@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Sacramento&display=swap');
 
-body{
+html,body{
     /* background-color: black; */
-    margin: 0px;
-    width: 100%;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 #whole{
     width: 100%;
