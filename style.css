@@ -121,6 +121,7 @@ width: 100%;
 }
 #web{
    color: white;
+   margin-bottom: 30px;
 }
 #article{
     display: flex;
