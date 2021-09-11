@@ -7,8 +7,6 @@ body{
 #whole{
     width: 100%;
     background-color: pink;
-    margin-left: auto;
-    margin-right: auto;
 }
 header{
     background: url('img/banner.jpeg');
